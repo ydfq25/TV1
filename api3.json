@@ -2,6 +2,8 @@
     "spider": "./spider3.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "./logo.png",
+
+
     "sites": [
         {
             "key": "豆",
@@ -604,7 +606,7 @@
             }
         },
 
-////////////////////////////////////////////////////////////////////////////
+
         {
             "key": "csp_FeiMaoUC",
             "name": "⚡┃闪电┃优汐",
@@ -1217,7 +1219,7 @@
             }
         },
 
-///////////////////////////////////////////////////////////////////////////////////
+
 
         {
             "key": "热播影视",
@@ -1320,7 +1322,6 @@
             }
         },
         
-	//删除若雪，分辨率低+无法播放
 	
         {
             "key": "蓝鹰",
@@ -1384,7 +1385,7 @@
             }
         },
         
-	//删除爱看，分辨率低+无法播放
+
 	
         {
             "key": "布雷",
@@ -1644,40 +1645,7 @@
             }
         },
         
-	//删除腾讯视频，无法播放
-	//删除优酷视频，无法播放
-	//删除芒果视频，无法播放
-	//删除爱奇艺视频，无法播放
-	//删除三六零，是前面几个的整合
-        //删除快映
-	//删除玩偶
-	//删除蜡笔
-	//删除至臻
-	//删除多多
-	//删除欧哥
-	//删除二小
-	//删除虎斑
-	//删除闪电
-	//删除百家
-	//删除团长
-	//删除雷鲸
-	//删除海绵
-	//删除夸父
-	//删除123
-	//删除趣盘
-	//删除盘库
-	//删除双星
-	//删除校长
-	//删除人人
-	//删除糖果搜索，无法加载
-	//删除音海搜索，无法加载
-	//删除盘搜搜索，无法加载
-	//删除百酷搜索，无法加载
-	//删除米搜
-	//删除派派搜索，无法加载
-	//删除短剧大全，无法加载
-	//删除短剧合集，无法加载
-	//删除短剧鬼鬼，无法加载
+
 	
         {
             "key": "星芽短剧",
@@ -1699,7 +1667,6 @@
             "filterable": 1
         },
         
-	//删除锦鲤短剧，无法播放
         
         {
             "key": "剧王短剧",
@@ -1738,9 +1705,6 @@
             ]
         },
         
-	//删除猎手影视，分别率低于800
-	//删除零度影视，无法播放
-	
         {
             "key": "厂长影视",
             "name": "厂长｜影视",
@@ -2860,191 +2824,10 @@
         "ratio": 3.8
       },
       "gridview": "0-0-4.1"
-    }
+    },
     
-  ],
-  "parses": [
-    {
-      "name": "聚合1",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "聚合0",
-      "type": 3,
-      "url": "Web"
-    },
-    {
-      "name": "-失眠的夜-",
-      "type": 1,
-      "url": "http://154.9.253.211:777/api/?key=RbMD3gulnCTIx61557&url="
-    },
-    {
-      "name": "-青山绿水-",
-      "type": 1,
-      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905",
-          "NetFilx"
-        ]
-      }
-    },
-    {
-      "name": "-解析1-",
-      "type": 0,
-      "url": "https://jx.m3u8.tv/jiexi/?url="
-    },
-    {
-      "name": "-解析2-",
-      "type": 0,
-      "url": "https://jx.777jiexi.com/player/?url="
-    },
-    {
-      "name": "-解析2-",
-      "type": 1,
-      "url": "https://jxjson.icu/neibu.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "-解析5-",
-      "type": 1,
-      "url": "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "-解析6-",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
-        }
-      }
-    },
-    {
-      "name": "-解析7-",
-      "type": 0,
-      "url": "https://jx.zhanlangbu.com/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "ext": {
-          "header": {
-            "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-          }
-        }
-      }
-    },
-    {
-      "name": "-解析8-",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "-解析9-",
-      "type": 0,
-      "url": "https://www.kkvip2022.com/vip/jiexi1/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "-全看-",
-      "type": 0,
-      "url": "https://jx.quankan.app/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
+  
+
 ////////////////////////////////////////////
 
   {
@@ -6547,10 +6330,17 @@
         }
 
 
+
+
+
+     
     ],
 
 
-     "parses": [
+
+    
+   
+    "parses": [
         {
             "name": "无上",
             "type": "1",
@@ -6671,7 +6461,7 @@
             }
         }
     ],
-     "rules": [
+    "rules": [
         {
             "name": "量子非凡",
             "hosts": [
@@ -6886,56 +6676,66 @@
             ]
         }
     ],
-    
-
-
-
-
-
-
-
-
-
-    
-    
     "lives": [
         {
-            "name": "V4-develop202",
-            "type": 0,
-            "url": "./lives/V4-develop202.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
+		"name": "bingcha",
+		"type": 0,
+		"url": "https://gongdian.top/tv/bingcha",
+		"playerType": 1
+	    },
         {
-            "name": "V6-范明明（需开启V6网络）",
-            "type": 0,
-            "url": "./lives/V6-范明明（需开启V6网络）.txt"
-        },
-        {
-            "name": "虎牙一起看",
-            "type": 0,
-            "url": "./lives/虎牙一起看.txt",
-            "ua": "okHttp/Mod-1.4.0.0"
-        },
-        {
-            "name": "斗鱼一起看",
-            "type": 0,
-            "url": "./lives/斗鱼一起看.txt",
-            "ua": "okHttp/Mod-1.4.0.0"
-        },
-        {
-            "name": "B站直播",
-            "type": 0,
-            "url": "./lives/B站直播.txt",
-            "ua": "okHttp/Mod-1.4.0.0"
-        },
-        {
-            "name": "YY轮播",
-            "type": 0,
-            "url": "./lives/YY轮播.txt",
-            "ua": "okHttp/Mod-1.4.0.0"
-        }
-    ],
-      "hosts": [
+		"name": "webview源",
+		"type": 0,
+		"url": "https://gongdian.top/tv/webvideo.txt",
+		"playerType": 1,
+		"logo": "https://gongdian.top/tv/taibiao/{name}.png"
+	    },
+	    {
+		"name": "范明明IPV6",
+		"type": 0,
+		"url": "https://gongdian.top/tv/fanmingming",
+		"playerType": 1
+	    },
+	    {
+		"name": "酒店源",
+		"type": 0,
+		"url": "https://gongdian.top/tv/guovin",
+		"playerType": 1,
+		"logo": "https://gongdian.top/tv/taibiao/{name}.png"
+	    },
+	    {
+		"name": "izbds",
+		"type": 0,
+		"url": "https://gongdian.top/tv/izbds",
+		"playerType": 1,
+		"logo": "https://gongdian.top/tv/taibiao/{name}.png"
+	    },
+	    {
+		"name": "斗鱼一起看",
+		"type": 0,
+		"url": "https://gongdian.top/tv/Mursor/douyuyqk.m3u",
+		"playerType": 1
+	    },
+	    {
+		"name": "虎牙一起看",
+		"type": 0,
+		"url": "https://gongdian.top/tv/Mursor/huyayqk.m3u",
+		"playerType": 1
+	    },
+	    {
+		"name": "哔哩live",
+		"type": 0,
+		"url": "https://gongdian.top/tv/Mursor/bililive.m3u",
+		"playerType": 1
+		},
+	    {
+		"name": "YY轮播",
+		"type": 0,
+		"url": "https://gongdian.top/tv/Mursor/yylunbo.m3u",
+		"playerType": 1
+	    }
+        ],
+    "hosts": [
         "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
@@ -7143,20 +6943,4 @@
     "ads": [
         "static-mozai.4gtv.tv"
     ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
