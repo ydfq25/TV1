@@ -1,5 +1,6 @@
 {
-    "spider": "./spider3.jar",
+    //////////////"spider": "./spider3.jar",
+	"spider": "http://xhztv.top/xhz/jar/custom_spider.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "./logo.png",
     "sites": [
