@@ -1,5 +1,5 @@
 {
-    "spider": "./spider.jar",
+    "spider": "./spider3.jar",
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "./logo.png",
     "sites": [
@@ -2819,3 +2819,4 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
