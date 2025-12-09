@@ -1,7 +1,7 @@
 {
-    "spider": "./spider.jar",
-    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "logo": "./logo.png",
+    "spider": "http://xhztv.top/xhz/jar/custom_spider.jar",
+    "wallpaper": "http://xhztv.top/images/bz.png",
+    "logo": "http://xhztv.top/images/logo.png",
     "sites": [
         
         {
@@ -9435,3 +9435,4 @@
         "static-mozai.4gtv.tv"
     ]
 }
+
